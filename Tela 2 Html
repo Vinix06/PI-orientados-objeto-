@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Detalhes do Produto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <h1>Principal</h1>
+            <p class="texto">listar produto</p>
+            <p class="texto">listar usuário</p>
+            <p class="texto">listar pedido</p> 
+            <button class="buy-button">Proximo</button>
+        </div>
+    </div>
+</body>
+</html>
