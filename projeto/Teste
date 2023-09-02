@@ -1,0 +1,83 @@
+package model;
+
+public class AlterarUsuario {
+
+    private int id;
+    private String img;
+    
+    private String campo1;
+    
+    private String  campo2;
+    
+    
+    public AlterarUsuario() {
+        
+        public AlterarUsuario(int id, String img, String campo1, String campo2) {
+            this.id = id;
+            this.img = img;
+            this.campo1 = campo1;
+            this.campo2 = campo2;
+
+        }
+      public AlterarUsuario(int id, String img, String campo1, String campo2){
+            this.id = id;
+            this.img = img;
+            this.campo1 = campo1;
+            this.campo2 = campo2;
+        }
+            public int getId() {
+                return id;
+            }
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public String getImg() {
+                return img;
+            }
+
+            public void setImg(String img) {
+                this.img = img;
+            }
+
+            public String getNome() {
+                return nome;
+            }
+
+            public void setNome(String nome) {
+                this.nome = nome;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public void setEmail(String email) {
+                this.email = email;
+            }
+
+            public String getAlterar() {
+                return alterar;
+            }
+
+            public void setAlterar(String alterar {
+                this.alterar = alterar;
+            }
+
+            public String getHab() {
+                return hab;
+            }
+
+            public void setHab(String nab) {
+                this.hab = hab;
+            }
+
+            public Boolean getStatus() {
+                return status;
+            }
+
+            public void setStatus(Boolean status) {
+                this.status = status;
+            }
+        }
